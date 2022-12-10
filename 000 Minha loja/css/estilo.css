@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+}
+
+.container-fluid{
+    background-color: #000;
+    border: 1px solid #6c53ff;
+}
+.container-fluid img{
+    display: inline;
+    width: 80px;
+}
+.container-fluid h3{
+    display: inline;
+    margin: 0px;
+    padding-left: 5px;
+    color: #F285E0;
+    font-family: Blenda Script;
+}
+
+.active a{
+    font-family: Blenda Script;
+    background-color: #FFDFFF;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#loja{
+    background-image: linear-gradient(to bottom, #eb4cd1, #f7a0e8);
+}
+
+#loja h1{
+    margin: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: Blenda Script;
+}
+
+#capa, h1{
+    color: #000;
+    font-family: Blenda Script;
+    text-align: center;
+}
+#capa{
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#video-produtos h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+#video-produtos h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+#video-produtos{
+    background-image: linear-gradient(to bottom, #f7a0e8, #c188fa, #79b3f5);
+    text-align: center;
+}
+
+#fornecedores h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+#fornecedores h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+#fornecedores img{
+    width: 100%;
+    padding: 20px;
+}
+
+#fornecedores{
+    background-image: linear-gradient(to bottom, #79b3f5, #c188fa, #7B68EE);
+}
+
+#Looks{
+    background-image: linear-gradient(to bottom, #7B68EE, #c188fa, #F285E0)
+}
+#Looks h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+#Looks h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+#Looks h5{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.item active p{
+    font-family: Blenda Script;
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.2em black;
+
+}
+.item p{
+    font-family: Blenda Script;
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.2em black;
+}
+#qualidade{
+    background-color: #F285E0;
+}
+#qualidade h2{
+    background-color: #F285E0;
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+#qualidade h3{
+    background-color: #F285E0;
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail h4, p{
+    font-family: Open Sans;
+    text-align: justify;
+    color: #000;
+}
+
+#comentarios{
+    background-image: linear-gradient(to bottom, #F285E0, #c188fa, #7B68EE);
+    text-align: center;
+}
+
+#comentarios img{
+    width: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+#flex img{
+    width: 100px;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#compras{
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, #F285E0, #c188fa, #7B68EE);
+}
+
+.caption h2{
+    color: rgb(3, 3, 3);
+    text-align: center;
+    background-color: rgb(216, 122, 244);
+    border: 1px solid rgb(125, 39, 238);
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+.caption h3{
+    margin: 10px 0px 10px;
+}
+
+#footer-logo{
+    width: 50%;
+    padding-bottom: 30px;
+}
+#footer-end{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#footer-end p{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    background-color: #201f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+#parceiros{
+    background-image: linear-gradient(to bottom, #79b3f5, #c188fa, #7B68EE);
+}
+#parceiros h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+#parceiros h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.marcas-topo img{
+    width: 100%;
+}
+.marcas-corpo img{
+    width: 100%;
+}
+.marcas-topo{
+    padding-top: 15px;
+}
+.marcas-corpo div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-md-4{
+    padding: 10px 15px;
+}
+#contatos{
+    background-image: linear-gradient(to bottom, #7B68EE, #c188fa, #F285E0)
+}
+#contatos h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+#contatos h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+#contato-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#item-contato h4{
+    color:#000;
+}
+#item-contato{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+#item-contato img{
+    width: 60px;
+}
+
+#contato-img img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media(max-width:600px){
+    #contato-grid{
+        display: inline;
+        align-items: center;
+    }
+    #contato-img{
+        padding-top: 10px;
+    }
+}
+
+#desenvolvedor{
+    background-image: linear-gradient(to bottom, #7B68EE, #6175e6, #85b1f2, #6175e6, #7B68EE)
+}
+#desenvolvedor h2{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+#desenvolvedor h3{
+    color: #000;
+    font-family: Blenda Script;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 10px;
+}
+#desenvolvedor p{
+    padding: 15px;
+}
+#info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width:600px){
+    #info{
+        display: inline;
+        align-items: center;
+    }
+    #info p{
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+#podcast{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#podcast h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

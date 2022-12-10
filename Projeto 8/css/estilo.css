@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+}
+.container{
+    width: 80%;
+}
+#cabecalho{
+    background-color: aliceblue;
+    text-align: center;
+    width: auto;
+    border: 1px solid rgb(39, 145, 238);
+    margin-top: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#cabecalho h1{
+    margin: 10px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border: 1px solid rgb(39, 145, 238);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    background-color: rgb(39, 145, 238);
+    width:100%;
+}
+
+#cabecalho p{
+    margin: 15px;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 18;
+}
+
+#conteudo{
+    background-color: aliceblue;
+}
+
+.item-produto{
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgb(39, 145, 238);
+    margin: 5px;
+    padding: 10px 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+}
+
+.item-produto p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.item-produto img{
+    padding: 15px;
+    height: 100px;
+}
+
+.item-produto h4{
+    font-size: 20;
+    padding-top: 7px;
+    width: 208px;
+    height: 30px;
+    background-color: red;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    position: relative;
+    top: -11px;
+    left: -6px;
+}
+
+#menu{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: rgb(74, 73, 73) 0px 2px 1px;
+    text-align: center;
+    margin-top: -100px;
+    padding: 20px 10px;
+    z-index: 2;
+}
+
+#menu a{
+    color: red;
+    background-color: rgb(99, 220, 141);
+    border: 1px solid green;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color:rgb(99, 220, 141);
+    background-color: red;
+}
+
+#menu a:active{
+    color: red;
+    background-color: white;
+}
+
+#conteudo h1{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#rodape{
+    color: white;
+    font-size: 20;
+    background-color: darkcyan;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: auto;
+    width: auto;
+}
+
+#redes, #endereco{
+    width: 300px;
+    display: inline-block;
+}
+
+#redes{
+    text-align: center;
+}
+
+#redes img{
+    padding: 10px;
+}
+
+#contato{
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: -5px;
+}
+
+#paragrafo p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#paragrafo h1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cliente{
+    display: inline-block;
+    position: relative;
+}
+
+#cliente h1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cliente img{
+    border: 1px solid rgb(39, 145, 238);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.cliente h3{
+    color:rgb(29, 24, 174);
+    background-color: rgb(99, 220, 141);
+    text-align: center;
+    border: 1px solid rgb(39, 145, 238);
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 120px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+}
+#servicos{
+    position: relative;
+}
+#servicos h1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.texto{
+    margin: 10px;
+}
+.texto p{
+    text-align: justify;
+    border: 1px solid rgb(39, 145, 238);
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    left: 30px;
+}
+.texto h3{
+    color: rgb(29, 24, 174);
+    background-color: rgb(99, 220, 141);
+    border: 1px solid rgb(39, 145, 238);
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+}

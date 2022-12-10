@@ -1,0 +1,37 @@
+*{
+    margin: auto;
+}
+
+#cabecalho{
+    color: aliceblue;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    width: 580px;
+    margin-top: 0%;
+}
+
+#conteudo{
+    border: 2px solid dodgerblue;
+    width: 600px;
+    height: 575px;
+}
+
+.foto{
+    border: 2px solid dodgerblue;
+    display: inline-block;
+    margin: 20px;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+}
+
+h3{
+    color: aliceblue;
+    background-color: dodgerblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}

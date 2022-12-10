@@ -1,0 +1,54 @@
+#site{
+    border: 2px solid cornflowerblue;
+    height: 900px;
+    width: 500px;
+}
+
+.cabecalho h1{
+    color: blue;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.cabecalho p{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18;
+    font-family: Arial;
+    width: 475px;
+}
+
+.cabecalho h2{
+    color: blue;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+img{
+    width: 200px;
+    border: 2px solid cornflowerblue;
+    margin-left: 10px;
+}
+
+.produtos{
+    display: inline-block;
+    margin: 15px;
+}
+
+.produtos h3{
+    background-color: cornflowerblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 194px;
+}

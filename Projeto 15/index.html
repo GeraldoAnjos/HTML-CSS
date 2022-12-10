@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Projeto 15</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Marca e alternância são agrupados para melhor exibição em dispositivos móveis -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="img/Logo 3.png" alt="Logo">
+        </a>
+      </div>
+  
+      <!-- Colete os links de navegação, formulários e outros conteúdos para alternar -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#sobrenos">Sobre Nós <span class="sr-only">(current)</span></a></li>
+          <li><a href="#planos">Nossos Planos</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+        </ul>
+        
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+    <section class="container" id="sobrenos">
+        <h2 id="titulos">Sobre Nós</h2>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#empresa" aria-expanded="true" aria-controls="collapseOne">
+                    Empresa
+                  </a>
+                </h4>
+              </div>
+              <div id="empresa" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#missao" aria-expanded="false" aria-controls="collapseTwo">
+                    Missão
+                  </a>
+                </h4>
+              </div>
+              <div id="missao" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#objetivo" aria-expanded="false" aria-controls="collapseThree">
+                    Objetivo
+                  </a>
+                </h4>
+              </div>
+              <div id="objetivo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="container" id="planos">
+        <!--Breakpoints: São siglas que especificam tamanhos de tela.
+        Class             -   Sigla   -   Dimensão
+        X-small           -   none    -    < 576px
+        Small             -   sm      -   >= 576px
+        Medium            -   md      -   >= 768Px
+        Large             -   lg      -   >= 992px
+        Extra large       -   xl      -   >= 1200px
+        Extra extra large -   xxl     -   >= 1400px
+        -->
+        <h2 id="titulos">Nossos Planos</h2>
+        <div>
+          <div class="thumbnail none col-md-4 col-sm-4">
+            <img src="img/gratis-64.png" alt="Plano Grátis">
+            <div class="caption">
+              <h3>Plano Teste</h3>
+              <p>Cobertura de 3 atendimentos.<br>
+                Sugeito a fila de espera.
+              </p>
+              <h2>Por: Grátis</h2>
+            </div>
+          </div>
+          <div class="thumbnail none col-md-4 col-sm-4">
+            <img src="img/Mensal-30.png" alt="Plano Mensal">
+            <div class="caption">
+              <h3>Plano Mensal</h3>
+              <p>Cobertura total por 30 dias.<br>
+                Desconto de R$ 4,00.
+              </p>
+              <h2>Por: R$ 45,00</h2>
+            </div>
+          </div>
+          <div class="thumbnail none col-md-4 col-sm-4">
+            <img src="img/Anual 64.png" alt="Plano Anual">
+            <div class="caption">
+              <h3>Plano Anual</h3>
+              <p>Cobertura total por 365 dias.<br>
+                Desconto de R$ 58,00.
+              </p>
+              <h2>Por: R$ 530,00</h2>
+            </div>
+          </div>
+        </div>  
+    </section>
+
+    <section class="container" id="clientes">
+        <h2 id="titulos">Clientes</h2>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/Carrosel 0.jpg" alt="0">
+              <div class="carousel-caption">
+                <h3>Férias no Caribe</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/Carrosel 1.jpg" alt="1">
+              <div class="carousel-caption">
+                <h3>Passeio na orla</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/Carrosel 2.jpg" alt="2">
+              <div class="carousel-caption">
+                <h3>Lugares maravilhosos</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/Carrosel 3.jpg" alt="3">
+              <div class="carousel-caption">
+                <h3>Melhores hoteis</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/Carrosel 4.jpg" alt="4">
+              <div class="carousel-caption">
+                <h3>Quartos incríveis</h3>
+              </div>
+            </div>
+            Assine um de nossos planos e começe a viajar.
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section><br>
+    
+    <section class="container" id="beneficios">
+      <h2 id="titulos">Benefícios de assinante</h2><br>
+      <div class="row container">
+        <div class="list-group col-md-6 col-lg-4">
+          <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">Melhor atendimento</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ad deserunt esse saepe placeat! Accusamus neque temporibus rerum corporis. Quibusdam, facere. Consectetur at ratione esse dolore temporibus perspiciatis. Minima, placeat!</p>
+          </a>
+        </div>
+        <div class="list-group col-md-6 col-lg-4">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Sem fila de espera</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam a, numquam tempora ex sequi ea perferendis perspiciatis recusandae! Officiis aliquam amet alias architecto enim, inventore repellat in provident magnam reiciendis.</p>
+          </a>
+        </div>
+        <div class="list-group col-md-12 col-lg-4">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Atendimento todos os dias - 24h</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum error tenetur eaque nesciunt esse soluta laboriosam, dolorum doloremque magnam atque perspiciatis sequi itaque veritatis quaerat voluptatum autem laudantium eligendi vel!</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container panel-footer">
+        <address>
+            <p>
+                Loja XPTO<br>
+                Rua Fulano de Tal, 356, Centro<br>
+                São Paulo, <abbr title="São Paulo">SP</abbr><br>
+                Telefone: (21) 99999-9999<br>
+                lojaxpto@gmail.com
+            </p>
+        </address>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

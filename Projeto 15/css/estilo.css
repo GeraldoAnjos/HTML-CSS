@@ -1,0 +1,19 @@
+.panel-body{
+    text-align: justify;
+}
+#carousel-example-generic img{
+    width: 100%;
+}
+.carousel-caption h3{
+    color: rgb(253, 224, 55);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#titulos{
+    background-color: rgb(27, 146, 161);
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px 5px;
+}
+.logo img{
+    padding-right: 10px;
+}

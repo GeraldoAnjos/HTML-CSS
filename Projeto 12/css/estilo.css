@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.grid img{
+    width: 100%;
+}
+.grid div:nth-child(n+4){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.grid div.anuncio{
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+}
+@media(max-width:600px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .grid div:nth-child(n+4){
+        display: grid;
+    }
+
+    .grid div.anuncio{
+        grid-column: auto;
+        grid-row: auto;
+        display: block;
+    }
+}
